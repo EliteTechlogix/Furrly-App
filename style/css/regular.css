@@ -1,0 +1,567 @@
+/* main body css */
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.clr-white {
+    color: var(--white);
+}
+
+.clr-dark1 {
+    background: linear-gradient(89.83deg, #F2994A -6.21%, #ED6E2D 113.9%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.clr-dark2 {
+    color: var(--textcolor);
+}
+
+.clr-dark3 {
+    color: var(--textcolororengebg);
+}
+
+
+/* spacing */
+
+.gap1 {
+    gap: 30px;
+}
+
+
+/* spacing end  */
+
+
+/*  font size  */
+
+.h1mainhead {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 119.4%;
+}
+
+.spansubhead {
+    font-weight: 300 !important;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.headingrand {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.headingwellnormal {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+/*  font size  end */
+
+
+/* background colgroup */
+
+.bg-dark1 {
+    background-color: var(--bluedark);
+}
+
+.bg-dark2 {
+    background: var(--orengedark);
+}
+
+
+/* background colgroup End*/
+
+
+/* btn css  */
+
+.buttn-main {
+    display: flex;
+    max-width: 450px;
+    min-height: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+
+/* btn css End */
+
+
+/* main body css End*/
+
+
+/* nav style start */
+
+.paw-on-active {
+    max-width: 20px;
+    visibility: hidden;
+}
+
+.navbar {
+    min-height: 100px;
+    margin-bottom: -100px;
+}
+
+.navbar-nav .nav-item .active div div {
+    visibility: visible;
+}
+
+
+/* nav style start */
+
+
+/* section 1 home */
+
+.secdiv1 {
+    background-image: url(/img/sec1bg.webp);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    /* padding: 225px 10px; */
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+
+/* section 1 home end */
+
+
+/* section 2 home start  */
+
+.secdiv2 {
+    background-image: url(/img/sec2basket.webp);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: contain;
+    padding: 220px 10px;
+}
+
+
+/* .divc {
+    max-width: 300px;
+} */
+
+.divc img {
+    top: -100px;
+    right: 0;
+    max-width: 500px;
+}
+
+
+/* section 2 home End  */
+
+
+/* section 3home start  */
+
+.secdiv3 {
+    background-color: #FFE8CD;
+    padding: 100px 10px;
+}
+
+.divc2 img {
+    top: 0px;
+    left: 0;
+    max-width: 500px;
+}
+
+
+/* section 3home end  */
+
+
+/* section 4 home start  */
+
+.divc3 img {
+    top: 60px;
+    left: 0;
+    max-width: 500px;
+}
+
+
+/* section 4 home end  */
+
+
+/* section 5 home  */
+
+.secdiv5 {
+    background-image: url(/img/se5bg.webp);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: contain;
+    padding: 220px 10px;
+}
+
+
+/* section 5 home end */
+
+
+/* section 6 home start  */
+
+.presssecsty {
+    margin: 100px 10px;
+}
+
+
+/* section 6 home end  */
+
+
+/* section7 home start */
+
+.heart-img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.headstarth {
+    margin-bottom: 50px;
+}
+
+
+/* section7 home end */
+
+
+/* section 8 home faq start  */
+
+.faq-style {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.25);
+    margin: 20px 0;
+}
+
+.question {
+    padding: 30px 80px 30px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.question::after {
+    position: absolute;
+    right: 20px;
+    transition: 0.2s;
+    background-image: url('/img/pawfaq.webp');
+    background-repeat: repeat;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    content: "";
+}
+
+.question.active::after {
+    transform: rotate(180deg);
+}
+
+.answercont {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.answer {
+    padding: 0 20px 20px;
+    line-height: 1.5rem;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+/* section 8 home faq end  */
+
+
+/* footer section start  */
+
+.footersection {
+    background: linear-gradient(180deg, #EB7C3A 0%, #DF622B 100%);
+    border-radius: 32px 32px 0px 0px;
+    padding: 50px 10px;
+    margin-top: 100px;
+}
+
+.foot-logo {
+    max-width: 200px;
+    margin: auto;
+}
+
+.footer-nav div {
+    gap: 30px;
+}
+
+.coptright {
+    font-weight: 200 !important;
+}
+
+.bottomnav2 {
+    gap: 20px;
+}
+
+.backtop {
+    text-decoration: none;
+}
+
+.backtop:hover {
+    color: var(--bluedark);
+}
+
+
+/* footer section end  */
+
+
+/* Alishba */
+
+.sectionPadding {
+    padding: 50px 70px;
+}
+
+.bgWhite {
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+
+/* SinglePet */
+
+.pet-selectionBox {
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.pet-selectionBox:hover {
+    border: 1px solid orange;
+}
+
+.pet-title {
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+.pet-subtitle {
+    font-size: 16px !important;
+}
+
+.start-btn {
+    border: none;
+    min-height: 60px;
+}
+
+
+/* ======FORM======= */
+
+.form-lables {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--formslabelsclr)
+}
+
+#selection-inp {
+    border: none;
+    background-color: var(--white);
+    border-radius: 6px;
+    padding: 20px 14px;
+    border: 1px solid var(--white);
+    transition: .3s;
+}
+#selection-inp:hover{
+    border: 1px solid orange;
+}
+
+#selection-inp::placeholder,
+.typeText {
+    color: var( --inptextclr);
+}
+
+#selection-inp::placeholder {
+    font-size: 15px;
+}
+
+#selection-inp,
+#select-options:focus {
+    outline: none;
+}
+
+.pets {
+    background-color: var(--white);
+    padding: 30px 30px 10px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+}
+
+.pets img {
+    width: 100%;
+}
+
+.pet2 {
+    margin-left: 60px;
+}
+
+.pet-title {
+    font-size: 16px !important;
+    padding-top: 14px;
+}
+
+#select-options {
+    border: none;
+    background-color: var(--white);
+    border-radius: 6px;
+    padding: 14px 20px;
+    color: var( --inptextclr);
+}
+
+.checkbox {
+    width: 18px;
+    color: red;
+}
+
+.allergic-selection {
+    border: none;
+    background-color: var(--white);
+    border-radius: 6px;
+    padding: 10px 14px;
+    width: 200px;
+}
+
+.addPet-btn {
+    border: none;
+    width: 200px;
+    min-height: 60px;
+}
+
+.petSelectionForm {
+    display: none;
+}
+
+.activeForm {
+    display: block;
+}
+
+
+/* Single-ProductPage */
+
+.wrapper {
+    background-color: var(--formbg);
+}
+
+.bgWhite {
+    background-color: var(--white);
+}
+
+.filled-bar {
+    border-radius: 30px;
+    padding: 8px 12px;
+}
+
+.conditions-list {
+    background-color: rgb(196, 194, 194);
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.divider {
+    border: 1px dashed grey;
+}
+
+.quantitySelection {
+    padding: 10px !important;
+}
+
+.addToBox {
+    min-height: 40px;
+    font-size: 18px;
+}
+
+
+/* ============owl-carousel========== */
+
+.home-demo .item {
+    text-align: center;
+}
+
+.product-card {
+    max-width: 230px;
+    min-height: 440px;
+    border: 1px solid var(--formbg);
+    padding: 30px 30px 10px 30px;
+    border-radius: 6px;
+    transition: .5s;
+}
+
+.product-card:hover {
+    border: 1px solid orange;
+}
+
+.Product {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
+/* ================================ */
+
+
+/* BoxBuilding */
+
+.catoImg{
+    max-width: 420px;
+    padding: 90px 0;
+}
+.catoImg2{
+    max-width: 300px;
+    padding: 50px 0;
+}
+.summaryForm{
+    padding: 50px 50px 50px 0px;
+}
+
+
+.giftBoxImg {
+    padding: 60px 0;
+}
+
+/* ====================== */
+
+.summaryForm input{
+    border: 1px solid lightgrey !important;
+}
+.summaryForm input:hover{
+    border: 1px solid orange !important;
+}
+.ancherClrOrng{
+    color: orange;
+}
+.bgOrange{
+    background-color: var(--bgLightOrange);
+}
+
+/* =================================== */
+
+.loginTitle{
+    font-size: 34px;
+    font-weight: bold;
+    color: var(--bluedark);
+}
+.loginInfo{
+    font-size: 20px;
+}

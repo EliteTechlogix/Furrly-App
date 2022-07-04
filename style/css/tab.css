@@ -1,0 +1,89 @@
+@media (max-width: 1200px) and (min-width:769px) {
+    .divc2 img {
+        top: -85px;
+        left: 0;
+        max-width: 500px;
+    }
+    .divc3 img {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) and (min-width:769px) {
+    .secdiv4 {
+        padding: 100px 10px;
+    }
+    .secdiv5 {
+        background-image: none;
+        padding: 136px 10px;
+    }
+    .presssecsty {
+        margin: 0px 10px 100px 10px;
+    }
+    #navbarNav {
+        position: absolute;
+        top: 100px;
+        background-image: var(--orengedark);
+        width: 600px;
+    }
+}
+
+
+/* ===========MediaQuery Alishba ============== */
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .product-card {
+        min-height: 400px !important;
+    }
+}
+
+@media screen and (min-width:413px) and (max-width:463px) {
+    .pet2 {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:408px) {
+    .pet2 {
+        margin-left: 0px;
+    }
+}
+
+/* ===========MediaQuery============== */
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .sectionPadding{
+        padding: 50px 50px;
+    } 
+    .product-card {
+        min-height: 400px !important;
+    }
+    .giftBoxImg{
+        margin-top: 150px;
+    }
+    .summaryForm{
+        padding: 30px 0px 0px 0px;
+    }
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    
+    .sectionPadding{
+        padding: 50px 30px;
+    }
+    .catoImg{
+        max-width: 800px !important;
+        padding: 50px 0;
+    }
+    .giftBoxImg{
+        margin-top: 0px;
+    }
+    .summaryForm{
+        padding: 30px 0px 0px 0px;
+    }
+}
+
+/* ============================================*/
+
